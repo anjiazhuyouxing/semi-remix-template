@@ -3,7 +3,6 @@ import { vitePlugin as remix } from "@remix-run/dev";
 import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 import path from 'path';
-// import semi from "@douyinfe/vite-plugin-semi";
 
 export default defineConfig({
   resolve: {
@@ -32,8 +31,5 @@ export default defineConfig({
       },
     }),
     tsconfigPaths(),
-    // semi({
-    //   theme: "@semi-bot/semi-theme-jianying",
-    // }),
   ],
 });
